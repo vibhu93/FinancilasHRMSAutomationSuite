@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="1234"/>
+    <parameter name="StagingUrl" value="https://in5.hrms.deskera.com/a/In5malaysia/"/>
+    <parameter name="StagingUrl1" value="https://staging.deskera.com/staginghrms/a/mhrms1/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="HRMS_TestingSuite.Base_SetupHRMS_Class">
+        <methods>
+          <include name="openbrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- HRMS_TestingSuite.Base_SetupHRMS_Class -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

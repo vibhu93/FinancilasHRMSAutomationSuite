@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+	
+	    <parameter name="StagingUrl" value="https://staging.deskera.com/staginghrms/a/mhrms1/"></parameter>
+		<parameter name="StagingUrl1" value="https://in5.hrms.deskera.com/a/In5malaysia/"></parameter>
+		<parameter name="Browser" value="Chrome"></parameter>
+		
+		  <parameter name="username" value="admin"></parameter>
+          <parameter name="password" value="1234"></parameter>
+		
+		<classes>
+			<class name="HRMS_TestingSuite.Base_SetupHRMS_Class" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7877" started-at="2021-03-25T04:41:57Z" finished-at="2021-03-25T04:42:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7877" started-at="2021-03-25T04:41:57Z" finished-at="2021-03-25T04:42:05Z">
+      <class name="HRMS_TestingSuite.Base_SetupHRMS_Class">
+        <test-method status="PASS" signature="openbrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HRMS_TestingSuite.Base_SetupHRMS_Class@3d121db3]" name="openbrowser" duration-ms="7850" started-at="2021-03-25T04:41:57Z" finished-at="2021-03-25T04:42:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://in5.hrms.deskera.com/a/In5malaysia/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+      </class> <!-- HRMS_TestingSuite.Base_SetupHRMS_Class -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

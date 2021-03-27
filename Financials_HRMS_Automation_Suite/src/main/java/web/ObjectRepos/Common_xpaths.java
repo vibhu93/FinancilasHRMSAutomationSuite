@@ -1,10 +1,11 @@
 package web.ObjectRepos;
 
+import org.openqa.selenium.By;
+
 public class Common_xpaths {
 
-	public static void main(String[] args) {
-		 // We are generate common xpaths for all web pagaes modules
-
-	}
+	  public By usernameField = By.id("UserName");
+	  public By pwdField = By.id("Password");
+	  public By loginBtn = By.xpath("//input[@id='LoginButton']");
 
 }
